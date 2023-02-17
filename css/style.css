@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 5px red solid; */
+}
+/* VARIABLES */
+:root {
+  --background-color: #fafafa;
+}
+
+/* ELEMENTS */
+body {
+  background: var(--background-color);
+  font-family: "Poppins", sans-serif;
+  margin: 1em 1em 1em 1em;
+}
+
+footer {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  margin-top: 5em;
+  text-align: center;
+}
+
+h1 {
+  font-family: PT Serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+  margin-top: 1.4em;
+  text-align: left;
+}
+
+h2 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  margin-top: 1.8em;
+  text-align: left;
+}
+
+/* CLASSES */
+.card {
+  padding: 1em;
+}
+
+.card figure {
+  display: flex;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card:nth-child(even) {
+  transform: translateY(40px);
+}
+
+.gallery {
+  display: grid;
+  margin-top: 1.4em;
+  gap: 1em;
+  grid-template-columns: 1fr 1fr;
+}
+
+.horizontalCaption {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  margin-top: 1em;
+  text-align: left;
+}
+
+.verictalCaption {
+  font-family: "PT Serif", serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  writing-mode: vertical-lr;
+}
