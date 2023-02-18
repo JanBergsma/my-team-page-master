@@ -48,6 +48,7 @@ h2 {
   letter-spacing: 0em;
   margin-top: 1.8em;
   text-align: left;
+  text-transform: uppercase;
 }
 
 /* CLASSES */
@@ -100,4 +101,52 @@ h2 {
   text-align: left;
 
   writing-mode: vertical-lr;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    margin: 1em 8em 1em 8em;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    margin-right: 1em;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card:nth-child(even) {
+    transform: translateY(60px);
+  }
+
+  .gallery {
+    gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .info-block {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    justify-items: center;
+  }
+
+  .paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
 }
