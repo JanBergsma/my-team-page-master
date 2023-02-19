@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 /* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
   /* outline: 5px red solid; */
 }
+
 /* VARIABLES */
 :root {
   --background-color: #fafafa;
@@ -16,22 +19,22 @@
 /* ELEMENTS */
 body {
   background: var(--background-color);
-  font-family: "Poppins", sans-serif;
-  margin: 1em 1em 1em 1em;
+  font-family: Poppins, sans-serif;
+  margin: 1em;
 }
 
 footer {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   margin-top: 5em;
   text-align: center;
 }
 
 h1 {
-  font-family: PT Serif;
+  font-family: "PT Serif", serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 48px;
@@ -41,11 +44,11 @@ h1 {
 }
 
 h2 {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 27px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   margin-top: 1.8em;
   text-align: left;
   text-transform: uppercase;
@@ -75,11 +78,11 @@ h2 {
   grid-template-columns: 1fr 1fr;
 }
 
-.horizontalCaption {
+.horizontal-caption {
   font-size: 14px;
   font-weight: 600;
   line-height: 21px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -87,25 +90,24 @@ h2 {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   margin-top: 1em;
   text-align: left;
 }
 
-.verictalCaption {
+.verictal-caption {
   font-family: "PT Serif", serif;
   font-size: 10px;
   font-weight: 400;
   line-height: 13px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-
   writing-mode: vertical-lr;
 }
 
 @media screen and (min-width: 800px) {
   body {
-    margin: 1em 8em 1em 8em;
+    margin: 1em 8em;
   }
 
   h1 {
